@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Generator</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="index.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <center>
+        <h1 id="firstTitle" class="startScreen">Welcome to <span style="color:firebrick">Random</span> <span style="color:#0B6128">Name </span><span style="color:#705C1D">Generator</span></h1><br>
+        <button title="Click here to show the rules, then you can start the game" id="firstStart" class="startScreen BUTTON_HGT" href="#rulesBlock" onclick="start()">Click Here to Start</button>
+        <div id="rulesBlock">
+            <h2>Here are the rules</h2>
+            <h3 class="rules">1.After starting the game you need to enter the number of players first.<br><br><br>
+                2.After entering the number of players you need to enter the names of the players.<br><br><br>
+                3.After entering the names of the players you need to enter the number of rounds to be played.<br><br><br>
+                4.The game automatically stops after the number of rounds are completed.
+                <button id="start" href="" onclick="game()" class="btn">Click Here to Start the Game</button>
+            </h3>
+        </div>
+        <div class="end">
+            <center>
+                <h1 id="thank">
+                    <p class="firstP">Thank you for using</p>
+                </h1>
+            </center>
+        </div>
+    </center>
+
+</body>
+<footer class="bottom-container">
+    <span title="This game is completely coded by Dhivijit">© Dhivijit 2020</span>
+</footer>
+
+</html>
